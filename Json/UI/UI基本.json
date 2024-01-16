@@ -1,0 +1,592 @@
+{
+  "1": {
+    "inputs": {
+      "ckpt_name": "gameIconInstituteV10_v10.safetensors",
+      "vae_name": "vae-ft-mse-840000-ema-pruned.ckpt",
+      "clip_skip": -1,
+      "lora_name": "None",
+      "lora_model_strength": 1,
+      "lora_clip_strength": 1,
+      "positive": [
+        "49",
+        0
+      ],
+      "negative": [
+        "51",
+        0
+      ],
+      "token_normalization": "none",
+      "weight_interpretation": "A1111",
+      "empty_latent_width": 512,
+      "empty_latent_height": 512,
+      "batch_size": 1,
+      "lora_stack": [
+        "4",
+        0
+      ]
+    },
+    "class_type": "Efficient Loader"
+  },
+  "2": {
+    "inputs": {
+      "pixels": [
+        "3",
+        0
+      ],
+      "vae": [
+        "1",
+        4
+      ]
+    },
+    "class_type": "VAEEncode"
+  },
+  "3": {
+    "inputs": {
+      "width": 512,
+      "height": 512,
+      "scale_option": "width",
+      "average_color": "on",
+      "fill_color": "#FFFFFF",
+      "image": [
+        "11",
+        0
+      ]
+    },
+    "class_type": "ResizeImageMixlab"
+  },
+  "4": {
+    "inputs": {
+      "input_mode": "simple",
+      "lora_count": 1,
+      "lora_name_1": "GameIconResearch_omkt_Lora.safetensors",
+      "lora_wt_1": 0.15,
+      "model_str_1": 1,
+      "clip_str_1": 1,
+      "lora_name_2": "None",
+      "lora_wt_2": 1,
+      "model_str_2": 1,
+      "clip_str_2": 1,
+      "lora_name_3": "None",
+      "lora_wt_3": 1,
+      "model_str_3": 1,
+      "clip_str_3": 1,
+      "lora_name_4": "None",
+      "lora_wt_4": 1,
+      "model_str_4": 1,
+      "clip_str_4": 1,
+      "lora_name_5": "None",
+      "lora_wt_5": 1,
+      "model_str_5": 1,
+      "clip_str_5": 1,
+      "lora_name_6": "None",
+      "lora_wt_6": 1,
+      "model_str_6": 1,
+      "clip_str_6": 1,
+      "lora_name_7": "None",
+      "lora_wt_7": 1,
+      "model_str_7": 1,
+      "clip_str_7": 1,
+      "lora_name_8": "None",
+      "lora_wt_8": 1,
+      "model_str_8": 1,
+      "clip_str_8": 1,
+      "lora_name_9": "None",
+      "lora_wt_9": 1,
+      "model_str_9": 1,
+      "clip_str_9": 1,
+      "lora_name_10": "None",
+      "lora_wt_10": 1,
+      "model_str_10": 1,
+      "clip_str_10": 1,
+      "lora_name_11": "None",
+      "lora_wt_11": 1,
+      "model_str_11": 1,
+      "clip_str_11": 1,
+      "lora_name_12": "None",
+      "lora_wt_12": 1,
+      "model_str_12": 1,
+      "clip_str_12": 1,
+      "lora_name_13": "None",
+      "lora_wt_13": 1,
+      "model_str_13": 1,
+      "clip_str_13": 1,
+      "lora_name_14": "None",
+      "lora_wt_14": 1,
+      "model_str_14": 1,
+      "clip_str_14": 1,
+      "lora_name_15": "None",
+      "lora_wt_15": 1,
+      "model_str_15": 1,
+      "clip_str_15": 1,
+      "lora_name_16": "None",
+      "lora_wt_16": 1,
+      "model_str_16": 1,
+      "clip_str_16": 1,
+      "lora_name_17": "None",
+      "lora_wt_17": 1,
+      "model_str_17": 1,
+      "clip_str_17": 1,
+      "lora_name_18": "None",
+      "lora_wt_18": 1,
+      "model_str_18": 1,
+      "clip_str_18": 1,
+      "lora_name_19": "None",
+      "lora_wt_19": 1,
+      "model_str_19": 1,
+      "clip_str_19": 1,
+      "lora_name_20": "None",
+      "lora_wt_20": 1,
+      "model_str_20": 1,
+      "clip_str_20": 1,
+      "lora_name_21": "None",
+      "lora_wt_21": 1,
+      "model_str_21": 1,
+      "clip_str_21": 1,
+      "lora_name_22": "None",
+      "lora_wt_22": 1,
+      "model_str_22": 1,
+      "clip_str_22": 1,
+      "lora_name_23": "None",
+      "lora_wt_23": 1,
+      "model_str_23": 1,
+      "clip_str_23": 1,
+      "lora_name_24": "None",
+      "lora_wt_24": 1,
+      "model_str_24": 1,
+      "clip_str_24": 1,
+      "lora_name_25": "None",
+      "lora_wt_25": 1,
+      "model_str_25": 1,
+      "clip_str_25": 1,
+      "lora_name_26": "None",
+      "lora_wt_26": 1,
+      "model_str_26": 1,
+      "clip_str_26": 1,
+      "lora_name_27": "None",
+      "lora_wt_27": 1,
+      "model_str_27": 1,
+      "clip_str_27": 1,
+      "lora_name_28": "None",
+      "lora_wt_28": 1,
+      "model_str_28": 1,
+      "clip_str_28": 1,
+      "lora_name_29": "None",
+      "lora_wt_29": 1,
+      "model_str_29": 1,
+      "clip_str_29": 1,
+      "lora_name_30": "None",
+      "lora_wt_30": 1,
+      "model_str_30": 1,
+      "clip_str_30": 1,
+      "lora_name_31": "None",
+      "lora_wt_31": 1,
+      "model_str_31": 1,
+      "clip_str_31": 1,
+      "lora_name_32": "None",
+      "lora_wt_32": 1,
+      "model_str_32": 1,
+      "clip_str_32": 1,
+      "lora_name_33": "None",
+      "lora_wt_33": 1,
+      "model_str_33": 1,
+      "clip_str_33": 1,
+      "lora_name_34": "None",
+      "lora_wt_34": 1,
+      "model_str_34": 1,
+      "clip_str_34": 1,
+      "lora_name_35": "None",
+      "lora_wt_35": 1,
+      "model_str_35": 1,
+      "clip_str_35": 1,
+      "lora_name_36": "None",
+      "lora_wt_36": 1,
+      "model_str_36": 1,
+      "clip_str_36": 1,
+      "lora_name_37": "None",
+      "lora_wt_37": 1,
+      "model_str_37": 1,
+      "clip_str_37": 1,
+      "lora_name_38": "None",
+      "lora_wt_38": 1,
+      "model_str_38": 1,
+      "clip_str_38": 1,
+      "lora_name_39": "None",
+      "lora_wt_39": 1,
+      "model_str_39": 1,
+      "clip_str_39": 1,
+      "lora_name_40": "None",
+      "lora_wt_40": 1,
+      "model_str_40": 1,
+      "clip_str_40": 1,
+      "lora_name_41": "None",
+      "lora_wt_41": 1,
+      "model_str_41": 1,
+      "clip_str_41": 1,
+      "lora_name_42": "None",
+      "lora_wt_42": 1,
+      "model_str_42": 1,
+      "clip_str_42": 1,
+      "lora_name_43": "None",
+      "lora_wt_43": 1,
+      "model_str_43": 1,
+      "clip_str_43": 1,
+      "lora_name_44": "None",
+      "lora_wt_44": 1,
+      "model_str_44": 1,
+      "clip_str_44": 1,
+      "lora_name_45": "None",
+      "lora_wt_45": 1,
+      "model_str_45": 1,
+      "clip_str_45": 1,
+      "lora_name_46": "None",
+      "lora_wt_46": 1,
+      "model_str_46": 1,
+      "clip_str_46": 1,
+      "lora_name_47": "None",
+      "lora_wt_47": 1,
+      "model_str_47": 1,
+      "clip_str_47": 1,
+      "lora_name_48": "None",
+      "lora_wt_48": 1,
+      "model_str_48": 1,
+      "clip_str_48": 1,
+      "lora_name_49": "None",
+      "lora_wt_49": 1,
+      "model_str_49": 1,
+      "clip_str_49": 1
+    },
+    "class_type": "LoRA Stacker"
+  },
+  "5": {
+    "inputs": {
+      "transparency": true,
+      "model": "isnet-general-use",
+      "post_processing": false,
+      "only_mask": false,
+      "alpha_matting": false,
+      "alpha_matting_foreground_threshold": 170,
+      "alpha_matting_background_threshold": 10,
+      "alpha_matting_erode_size": 10,
+      "background_color": "none",
+      "images": [
+        "20",
+        0
+      ]
+    },
+    "class_type": "Image Rembg (Remove Background)"
+  },
+  "6": {
+    "inputs": {
+      "amount": [
+        "23",
+        0
+      ],
+      "samples": [
+        "2",
+        0
+      ]
+    },
+    "class_type": "RepeatLatentBatch"
+  },
+  "7": {
+    "inputs": {
+      "image": [
+        "8",
+        0
+      ]
+    },
+    "class_type": "GetImageSize"
+  },
+  "8": {
+    "inputs": {
+      "image": "btn_shopIcon (1).png",
+      "upload": "image"
+    },
+    "class_type": "LoadImage"
+  },
+  "9": {
+    "inputs": {
+      "x": [
+        "16",
+        0
+      ],
+      "y": [
+        "17",
+        0
+      ],
+      "width": [
+        "14",
+        0
+      ],
+      "height": [
+        "15",
+        0
+      ],
+      "z_index": 0,
+      "scale_option": "overall",
+      "Set Area": "",
+      "image": [
+        "8",
+        0
+      ],
+      "mask": [
+        "10",
+        0
+      ],
+      "canvas": [
+        "18",
+        0
+      ]
+    },
+    "class_type": "NewLayer"
+  },
+  "10": {
+    "inputs": {
+      "mask": [
+        "8",
+        1
+      ]
+    },
+    "class_type": "InvertMask"
+  },
+  "11": {
+    "inputs": {
+      "layers": [
+        "9",
+        0
+      ],
+      "images": [
+        "18",
+        0
+      ]
+    },
+    "class_type": "MergeLayers"
+  },
+  "12": {
+    "inputs": {
+      "image": [
+        "18",
+        0
+      ]
+    },
+    "class_type": "GetImageSize"
+  },
+  "13": {
+    "inputs": {
+      "images": [
+        "11",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "14": {
+    "inputs": {
+      "value": "a",
+      "a": [
+        "7",
+        0
+      ]
+    },
+    "class_type": "SimpleMath+"
+  },
+  "15": {
+    "inputs": {
+      "value": "a",
+      "a": [
+        "7",
+        1
+      ]
+    },
+    "class_type": "SimpleMath+"
+  },
+  "16": {
+    "inputs": {
+      "value": "(a-b)/2",
+      "a": [
+        "12",
+        0
+      ],
+      "b": [
+        "7",
+        0
+      ]
+    },
+    "class_type": "SimpleMath+"
+  },
+  "17": {
+    "inputs": {
+      "value": "(a-b)/2",
+      "a": [
+        "7",
+        1
+      ],
+      "b": [
+        "12",
+        1
+      ]
+    },
+    "class_type": "SimpleMath+"
+  },
+  "18": {
+    "inputs": {
+      "width": [
+        "14",
+        0
+      ],
+      "height": [
+        "15",
+        0
+      ],
+      "noise_level": 0,
+      "color_hex": [
+        "19",
+        0
+      ]
+    },
+    "class_type": "NoiseImage"
+  },
+  "19": {
+    "inputs": {
+      "color": {
+        "hex": "#707070",
+        "r": 112,
+        "g": 112,
+        "b": 112,
+        "a": null
+      },
+      "input_color": null
+    },
+    "class_type": "Color"
+  },
+  "20": {
+    "inputs": {
+      "border_width": 0,
+      "number_of_columns": 4,
+      "max_cell_size": 512,
+      "border_red": 100,
+      "border_green": 100,
+      "border_blue": 100,
+      "images": [
+        "28",
+        5
+      ]
+    },
+    "class_type": "Create Grid Image from Batch"
+  },
+  "21": {
+    "inputs": {
+      "num_tiles": [
+        "23",
+        0
+      ],
+      "image": [
+        "5",
+        0
+      ]
+    },
+    "class_type": "Image Tiled"
+  },
+  "22": {
+    "inputs": {
+      "images": [
+        "21",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "23": {
+    "inputs": {
+      "value": 8
+    },
+    "class_type": "Int"
+  },
+  "28": {
+    "inputs": {
+      "seed": 789029429072512,
+      "steps": 20,
+      "cfg": 7,
+      "sampler_name": "dpmpp_2m_sde_gpu",
+      "scheduler": "karras",
+      "denoise": 0.7000000000000001,
+      "preview_method": "none",
+      "vae_decode": "true",
+      "model": [
+        "1",
+        0
+      ],
+      "positive": [
+        "1",
+        1
+      ],
+      "negative": [
+        "1",
+        2
+      ],
+      "latent_image": [
+        "6",
+        0
+      ],
+      "optional_vae": [
+        "1",
+        4
+      ]
+    },
+    "class_type": "KSampler (Efficient)"
+  },
+  "47": {
+    "inputs": {
+      "images": [
+        "20",
+        0
+      ]
+    },
+    "class_type": "PreviewImage"
+  },
+  "49": {
+    "inputs": {
+      "text": [
+        "52",
+        0
+      ]
+    },
+    "class_type": "ShowText|pysssss"
+  },
+  "51": {
+    "inputs": {
+      "text": "lowres, bad anatomy, bad hands, text, error, missing fingers, extra digit, fewer digits, cropped, worst quality, low quality, normal quality, jpeg artifacts, signature, watermark, username, blurry"
+    },
+    "class_type": "Text Multiline"
+  },
+  "52": {
+    "inputs": {
+      "action": "append",
+      "tidy_tags": "yes",
+      "text_a": [
+        "56",
+        0
+      ],
+      "text_b": "",
+      "text_c": "(masterpiece, best quality, highly detailed, absurdres), flat design, minimalism, (clean:1.3)"
+    },
+    "class_type": "StringFunction|pysssss"
+  },
+  "53": {
+    "inputs": {
+      "text": "一个神秘宝箱,宝箱前方有紫色和蓝色的钻石"
+    },
+    "class_type": "Text Multiline"
+  },
+  "56": {
+    "inputs": {
+      "text_trans": [
+        "53",
+        0
+      ],
+      "text_normal": "",
+      "trans_switch": "enabled"
+    },
+    "class_type": "PromptTextTranslation"
+  }
+}

@@ -1,0 +1,17 @@
+#define THREADS 8
+
+#pragma kernel SumColor
+Texture2D<float4> _InputTexture;
+RWBuffer<uint> _OutputBuffer;
+
+[numthreads(THREADS, THREADS, 1)]
+void SumColor (uint3 id : SV_DispatchThreadID)
+{
+    uint width, height;
+    _InputTexture.GetDimensions(width, height);
+
+    uint index = id.x + id.y * width;
+    float4 color = _InputTexture[id.xy];
+    //_OutputBuffer[index] = asint(color.r * 1000);
+    InterlockedAdd(_OutputBuffer[0], uint(color.r * 1000));
+}
